@@ -1,0 +1,2355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маникюр в Голубом | Мастер маникюра Татьяна</title>
+    <meta name="description" content="Маникюр в Голубом, Московская область. Мастер Татьяна: маникюр с покрытием, френч, дизайн, наращивание и маникюр без покрытия. Подберите свой вариант и запишитесь онлайн.">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="RU-MOS">
+    <meta name="geo.placename" content="Голубое, Московская область">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="canonical" href="https://regina841.github.io/tatiana-nails/">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "BeautySalon"],
+            "name": "Татьяна — мастер маникюра в Голубом",
+            "url": "https://regina841.github.io/tatiana-nails/",
+            "description": "Маникюр в Голубом, Московская область. Маникюр с покрытием, френч, дизайн, наращивание и маникюр без покрытия.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Тверецкий проезд, 19, ЖК «Первый Зеленоградский», цокольный этаж",
+                "addressLocality": "Голубое",
+                "addressRegion": "Московская область",
+                "postalCode": "141551",
+                "addressCountry": "RU"
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap');
+        :root {
+            --bg-0: #090b10;
+            --bg-1: #101621;
+            --bg-2: #171c2a;
+            --panel: rgba(18, 22, 31, 0.76);
+            --card: rgba(16, 18, 26, 0.8);
+            --text: #f3efe9;
+            --muted: #afaaa2;
+            --muted-strong: #c7c1b9;
+            --line: rgba(255, 255, 255, 0.12);
+            --line-strong: rgba(212, 184, 160, 0.28);
+            --accent: #d8c4af;
+            --accent-soft: #f1d7bc;
+            --shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+            --button-bg: rgba(12, 15, 23, 0.92);
+            --button-shadow: 0 16px 30px rgba(0, 0, 0, 0.34);
+            --radius-xl: 32px;
+            --radius-lg: 24px;
+            --content-width: 1180px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: "Manrope", "Segoe UI", Arial, sans-serif;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(193, 174, 214, 0.12), transparent 26%),
+                radial-gradient(circle at 80% 12%, rgba(150, 170, 212, 0.12), transparent 30%),
+                linear-gradient(180deg, var(--bg-0) 0%, var(--bg-1) 38%, var(--bg-2) 100%);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(90deg, rgba(255,255,255,0.012), rgba(255,255,255,0), rgba(255,255,255,0.012));
+            pointer-events: none;
+        }
+
+        body[data-vibe="tender"] {
+            --panel: rgba(28, 24, 30, 0.76);
+            --card: rgba(22, 19, 24, 0.8);
+            --accent: #d7c3bb;
+            --accent-soft: #f2d8d1;
+            --bg-1: #14151d;
+            --bg-2: #1c1a23;
+        }
+
+        body[data-vibe="stylish"] {
+            --panel: rgba(20, 23, 30, 0.76);
+            --card: rgba(17, 20, 27, 0.8);
+            --accent: #d1c3ae;
+            --accent-soft: #dfe0ea;
+            --bg-1: #0d1018;
+            --bg-2: #1a1d29;
+        }
+
+        body[data-vibe="bright"] {
+            --panel: rgba(28, 22, 24, 0.76);
+            --card: rgba(27, 20, 22, 0.82);
+            --accent: #d8b59c;
+            --accent-soft: #f5ce9d;
+            --bg-1: #141015;
+            --bg-2: #241b1d;
+        }
+
+        body[data-vibe="wow"] {
+            --panel: rgba(21, 18, 28, 0.78);
+            --card: rgba(18, 16, 26, 0.81);
+            --accent: #d9c7af;
+            --accent-soft: #f3d6a1;
+            --bg-1: #0f0e18;
+            --bg-2: #1b1928;
+        }
+
+        a { color: inherit; text-decoration: none; }
+        button { font: inherit; }
+
+        .site-shell { position: relative; z-index: 1; }
+
+        .seo-location {
+            width: min(1120px, calc(100% - 32px));
+            margin: 24px auto 0;
+            padding: 20px 20px 18px;
+            border: 1px solid var(--line);
+            background: rgba(18, 22, 31, 0.72);
+            border-radius: 22px;
+            box-shadow: 0 18px 36px rgba(0,0,0,0.18);
+        }
+
+        .seo-location__inner {
+            display: grid;
+            gap: 12px;
+        }
+
+        .seo-location h2 {
+            margin: 0;
+            color: var(--text);
+            font-size: clamp(28px, 2.2vw, 40px);
+            line-height: 1.08;
+            font-weight: 600;
+            letter-spacing: -0.04em;
+        }
+
+        .seo-location p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .seo-location__label {
+            color: var(--muted-strong);
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+        }
+
+        .seo-location__button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+            min-height: 48px;
+            padding: 0 20px;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--line);
+            color: var(--text);
+            font-size: 15px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .seo-location__button:hover,
+        .seo-location__button:focus-visible {
+            transform: translateY(-1px);
+            border-color: var(--accent);
+            outline: none;
+        }
+
+        @media (max-width: 560px) {
+            .seo-location {
+                width: min(100% - 20px, 1120px);
+                padding: 18px 16px 16px;
+                margin-top: 18px;
+            }
+
+            .seo-location h2 {
+                font-size: clamp(24px, 7vw, 34px);
+            }
+
+            .seo-location p {
+                font-size: 14px;
+            }
+        }
+
+        .hero {
+    position: relative;
+    height: 100vh;
+    min-height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: clamp(18px, 3vw, 48px);
+    padding: 28px 20px;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 540px;
+            width: min(540px, 42vw);
+            text-align: left;
+        }
+
+        .label {
+            font-size: 12px;
+            letter-spacing: 0.26em;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+            color: var(--muted-strong);
+            opacity: 0.9;
+        }
+
+        h1 {
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(52px, 6.2vw, 82px);
+            line-height: 0.9;
+            letter-spacing: -0.04em;
+            font-weight: 500;
+            margin-bottom: 30px;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.05);
+        }
+
+        .description {
+            max-width: 560px;
+            font-size: clamp(18px, 1.6vw, 22px);
+            line-height: 1.55;
+            color: var(--muted-strong);
+            margin-bottom: 40px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 32px;
+            border-radius: 999px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+            border: 1px solid var(--line-strong);
+            color: var(--text);
+            font-size: 15px;
+            letter-spacing: 0.06em;
+            font-weight: 500;
+            box-shadow: var(--button-shadow), inset 0 0 0 1px rgba(255,255,255,0.04);
+            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .button:hover,
+        .button:focus-visible {
+            transform: translateY(-2px);
+            border-color: rgba(214, 201, 190, 0.5);
+            box-shadow: 0 20px 36px rgba(0,0,0,0.38), 0 0 0 1px rgba(214, 201, 190, 0.15);
+        }
+
+        /* =========================
+   HERO NAIL — LUXURY LIGHT
+========================= */
+
+.hero-visual {
+    position: relative;
+    width: min(520px, 38vw);
+    height: min(620px, 76vh);
+    flex: 0 0 min(520px, 38vw);
+    pointer-events: none;
+    z-index: 1;
+    filter: drop-shadow(0 45px 70px rgba(0,0,0,0.42));
+}
+
+/* Мягкое свечение позади ногтя */
+.halo {
+    position: absolute;
+    width: 62%;
+    height: 72%;
+    left: 19%;
+    top: 14%;
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(125, 28, 46, 0.42) 0%,
+            rgba(104, 31, 48, 0.24) 28%,
+            rgba(76, 33, 50, 0.10) 52%,
+            rgba(0,0,0,0) 72%
+        );
+
+    filter: blur(34px);
+    opacity: 0.9;
+    transform: scale(1.08);
+}
+
+
+/* Контейнер ногтя */
+.hero-nail-wrap {
+    position: absolute;
+    inset: 0;
+    overflow: visible;
+
+    transform: scale(0.72);
+    transform-origin: center center;
+}
+
+
+/* Дополнительный контровой свет по силуэту */
+.hero-nail-wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            ellipse at 50% 48%,
+            rgba(190, 48, 70, 0.38) 0%,
+            rgba(145, 31, 50, 0.24) 28%,
+            rgba(80, 27, 43, 0.08) 52%,
+            rgba(0,0,0,0) 72%
+        );
+
+    -webkit-mask-image:
+        url("assets/images/hero-nail-luxury.png");
+
+    mask-image:
+        url("assets/images/hero-nail-luxury.png");
+
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+    -webkit-mask-size: contain;
+    mask-size: contain;
+
+    -webkit-mask-position: center;
+    mask-position: center;
+
+    filter:
+        blur(18px)
+        drop-shadow(
+            0 0 24px
+            rgba(159, 43, 61, 0.55)
+        );
+
+    transform: scale(1.06);
+    opacity: 0.9;
+
+    z-index: 0;
+}
+
+
+/* Сам ноготь */
+.hero-nail-base,
+.hero-nail-gloss {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    pointer-events: none;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+
+/* Основной бордовый ноготь */
+.hero-nail-base {
+    filter:
+        saturate(1.02)
+        contrast(1.05)
+        brightness(1.02);
+
+    opacity: 1;
+    z-index: 2;
+}
+
+
+/* =========================
+   ДВА ДВИЖУЩИХСЯ БЛИКА
+   PREMIUM SOFT REFLECTION
+========================= */
+
+.hero-nail-gloss {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    z-index: 5;
+
+    /*
+       Форма примерно повторяет сам ноготь.
+       Поэтому свет не выходит далеко за его края.
+    */
+    clip-path: ellipse(19% 45% at 50% 50%);
+
+    /*
+       Широкая мягкая полоса света,
+       а не тонкая белая линия.
+    */
+    background:
+        linear-gradient(
+            105deg,
+            rgba(255,255,255,0) 0%,
+            rgba(255,255,255,0) 38%,
+            rgba(255,255,255,0.03) 43%,
+            rgba(255,250,245,0.18) 47%,
+            rgba(255,255,255,0.72) 50%,
+            rgba(255,250,245,0.20) 54%,
+            rgba(255,255,255,0.03) 59%,
+            rgba(255,255,255,0) 64%,
+            rgba(255,255,255,0) 100%
+        );
+
+    background-size: 280% 100%;
+    
+    filter: blur(5px);
+
+    mix-blend-mode: screen;
+
+    opacity: 0.72;
+}
+
+
+/* Первый свет */
+
+.hero-nail-gloss-one {
+    animation:
+        luxuryReflectionOne
+        5.5s
+        cubic-bezier(.45,0,.35,1)
+        infinite;
+}
+
+
+/* Второй, более мягкий свет */
+
+.hero-nail-gloss-two {
+    opacity: 0.42;
+
+    filter: blur(8px);
+
+    background:
+        linear-gradient(
+            72deg,
+            rgba(255,255,255,0) 0%,
+            rgba(255,255,255,0) 40%,
+            rgba(255,250,245,0.08) 46%,
+            rgba(255,255,255,0.45) 50%,
+            rgba(255,250,245,0.10) 55%,
+            rgba(255,255,255,0) 62%,
+            rgba(255,255,255,0) 100%
+        );
+
+    background-size: 300% 100%;
+
+    animation:
+        luxuryReflectionTwo
+        8s
+        cubic-bezier(.45,0,.35,1)
+        infinite;
+}
+
+
+/* Первый блик */
+
+@keyframes luxuryReflectionOne {
+
+    0% {
+        background-position: -120% 50%;
+    }
+
+    45% {
+        background-position: 0% 50%;
+    }
+
+    70% {
+        background-position: 55% 50%;
+    }
+
+    100% {
+        background-position: 120% 50%;
+    }
+}
+
+
+/* Второй блик */
+
+@keyframes luxuryReflectionTwo {
+
+    0% {
+        background-position: 120% 50%;
+    }
+
+    35% {
+        background-position: 55% 50%;
+    }
+
+    65% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: -120% 50%;
+    }
+}
+
+
+/* Телефон */
+
+@media (max-width: 900px) {
+
+    .hero-nail-gloss {
+        clip-path: ellipse(21% 45% at 50% 50%);
+        filter: blur(4px);
+    }
+
+    .hero-nail-gloss-two {
+        filter: blur(6px);
+    }
+}
+
+
+@media (max-width: 560px) {
+
+    .hero-nail-gloss {
+        clip-path: ellipse(22% 44% at 50% 50%);
+        filter: blur(3px);
+    }
+
+    .hero-nail-gloss-two {
+        filter: blur(5px);
+    }
+}
+
+
+/* На телефоне немного уменьшаем блики */
+
+@media (max-width: 900px) {
+
+    .hero-nail-gloss {
+        height: 300px;
+        width: 24px;
+    }
+
+    .hero-nail-gloss-two {
+        height: 260px;
+        width: 15px;
+    }
+}
+
+
+@media (max-width: 560px) {
+
+    .hero-nail-gloss {
+        height: 250px;
+        width: 20px;
+    }
+
+    .hero-nail-gloss-two {
+        height: 215px;
+        width: 13px;
+    }
+}
+
+
+/* =========================
+   ПЛАНШЕТ / ТЕЛЕФОН
+========================= */
+
+@media (max-width: 900px) {
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        padding: 34px 20px;
+        gap: 8px;
+    }
+
+    .hero-visual {
+        width: min(400px, 70vw);
+        height: min(430px, 48vh);
+        flex-basis: auto;
+        order: -1;
+    }
+
+    .hero-nail-wrap {
+        transform: scale(0.72);
+    }
+
+    .halo {
+        width: 66%;
+        height: 72%;
+        left: 17%;
+        top: 13%;
+    }
+
+    .hero-content {
+        width: min(620px, 100%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* =========================
+   МАЛЕНЬКИЙ ТЕЛЕФОН
+========================= */
+
+@media (max-width: 560px) {
+
+    .hero {
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 4px;
+    }
+
+    .hero-visual {
+        width: min(340px, 78vw);
+        height: min(360px, 43vh);
+    }
+
+    .hero-nail-wrap {
+        transform: scale(0.70);
+    }
+
+    .label {
+        margin-bottom: 20px;
+        font-size: 11px;
+        letter-spacing: 0.2em;
+    }
+
+    .description {
+        font-size: 17px;
+        margin-bottom: 28px;
+    }
+
+    .button {
+        width: 100%;
+        max-width: 360px;
+    }
+}
+
+        .quiz {
+            position: relative;
+            min-height: 100vh;
+            padding: 90px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .quiz::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 50% 30%, rgba(196, 179, 167, 0.08), transparent 18%),
+                linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0));
+            pointer-events: none;
+        }
+
+        .quiz-content {
+            position: relative;
+            z-index: 1;
+            width: min(800px, 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .quiz-step {
+            font-size: 12px;
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+
+        .quiz h2 {
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(38px, 5vw, 64px);
+            line-height: 0.94;
+            letter-spacing: -0.04em;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .quiz-description {
+            font-size: clamp(17px, 1.5vw, 20px);
+            color: var(--muted-strong);
+            margin-bottom: 42px;
+            max-width: 640px;
+        }
+
+        #quiz .choices {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 22px 28px;
+            width: min(820px, 100%);
+            align-items: center;
+            justify-items: center;
+        }
+
+        /* ==========================================================
+           STEP 1 — REAL LIQUID POLISH DROPS
+           Не карточки и не овалы: SVG даёт органический контур.
+        ========================================================== */
+
+        #quiz .choice.choice--drop {
+            position: relative;
+            width: min(390px, 100%);
+            height: 205px;
+            min-height: 0;
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            overflow: visible;
+            isolation: isolate;
+            transform: rotate(var(--drop-tilt, 0deg)) translateY(0);
+            transition:
+                transform .35s cubic-bezier(.22,.8,.25,1),
+                filter .35s ease;
+            font-family: "Manrope", "Segoe UI", sans-serif;
+            font-size: 18px;
+            line-height: 1.18;
+            font-weight: 600;
+            letter-spacing: -.015em;
+            text-align: center;
+        }
+
+        #quiz .choice.choice--drop .drop-art {
+            position: absolute;
+            inset: -5% -3%;
+            width: 106%;
+            height: 110%;
+            overflow: visible;
+            pointer-events: none;
+            z-index: 0;
+            transform-origin: 50% 55%;
+            transition:
+                transform .35s cubic-bezier(.22,.8,.25,1),
+                filter .35s ease;
+        }
+
+        #quiz .choice.choice--drop span {
+            position: absolute;
+            z-index: 2;
+            left: 50%;
+            top: 51%;
+            width: 72%;
+            transform: translate(-50%, -50%);
+            color: rgba(255,255,255,.98);
+            text-shadow:
+                0 1px 2px rgba(40, 5, 16, .45),
+                0 2px 10px rgba(0,0,0,.18);
+            pointer-events: none;
+            white-space: normal;
+        }
+
+        #quiz .choice--tender { --drop-tilt: -1.5deg; }
+        #quiz .choice--stylish { --drop-tilt: 1.8deg; }
+        #quiz .choice--bright { --drop-tilt: -2deg; }
+        #quiz .choice--wow { --drop-tilt: 1.4deg; }
+
+        #quiz .choice.choice--drop:hover,
+        #quiz .choice.choice--drop:focus-visible {
+            transform: rotate(var(--drop-tilt, 0deg)) translateY(-7px) scale(1.025);
+            outline: none;
+            filter: saturate(1.08);
+        }
+
+        #quiz .choice.choice--drop:hover .drop-art,
+        #quiz .choice.choice--drop:focus-visible .drop-art {
+            transform: scale(1.025);
+            filter: brightness(1.035);
+        }
+
+        #quiz .choice.choice--drop:active {
+            transform: rotate(var(--drop-tilt, 0deg)) translateY(-2px) scale(.99);
+        }
+
+        #quiz .choice.choice--drop.is-selected {
+            transform: rotate(var(--drop-tilt, 0deg)) translateY(-5px) scale(1.035);
+            filter: saturate(1.12) brightness(1.03);
+        }
+
+        #quiz .choice.choice--drop.is-selected .drop-art {
+            transform: scale(1.035);
+        }
+
+        /* На узких экранах оставляем органические капли, а не превращаем их
+           в прямоугольные мобильные кнопки. */
+        @media (max-width: 900px) {
+            #quiz .choices {
+                grid-template-columns: 1fr;
+                gap: 8px;
+                width: min(500px, 100%);
+            }
+
+            #quiz .choice.choice--drop {
+                width: min(400px, 92vw);
+                height: 205px;
+            }
+        }
+
+        @media (max-width: 560px) {
+            #quiz .choice.choice--drop {
+                width: min(370px, 96vw);
+                height: 185px;
+                font-size: 17px;
+            }
+
+            #quiz .choice.choice--drop .drop-art {
+                inset: -6% -5%;
+                width: 110%;
+                height: 114%;
+            }
+        }
+
+        #quiz2 .choices {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            width: min(760px, 100%);
+            gap: 22px;
+            align-items: end;
+        }
+
+        #quiz2 .choice {
+            position: relative;
+            min-height: 310px;
+            padding: 24px 16px 18px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 30px;
+            background: linear-gradient(180deg, rgba(17, 20, 25, 0.84), rgba(12, 15, 19, 0.76));
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 18px 34px rgba(0,0,0,0.22);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            overflow: visible;
+            color: var(--text);
+            text-align: center;
+            transition: transform 0.32s ease, box-shadow 0.32s ease, border-color 0.32s ease;
+        }
+
+        #quiz2 .choice::before,
+        #quiz2 .choice::after {
+            content: "";
+            position: absolute;
+            pointer-events: none;
+        }
+
+        #quiz2 .choice::before {
+            left: 50%;
+            bottom: 52px;
+            width: var(--nail-width, 110px);
+            height: var(--nail-height, 170px);
+            transform: translateX(-50%);
+            background-image: url("assets/images/hero-nail-luxury.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center bottom;
+            filter: drop-shadow(0 18px 20px rgba(0,0,0,0.2));
+            opacity: 1;
+        }
+
+        #quiz2 .choice::after {
+            left: 50%;
+            bottom: 78px;
+            width: calc(var(--nail-width, 110px) * 0.72);
+            height: 18px;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            background: linear-gradient(90deg, rgba(255,255,255,0.75), rgba(255,255,255,0.08));
+            filter: blur(8px);
+            opacity: 0.75;
+        }
+
+        #quiz2 .choice:nth-child(1) {
+            --nail-width: 92px;
+            --nail-height: 148px;
+        }
+
+        #quiz2 .choice:nth-child(2) {
+            --nail-width: 110px;
+            --nail-height: 176px;
+        }
+
+        #quiz2 .choice:nth-child(3) {
+            --nail-width: 128px;
+            --nail-height: 206px;
+        }
+
+        #quiz2 .choice > span {
+            position: relative;
+            z-index: 2;
+            display: inline-block;
+            font-family: "Manrope", "Segoe UI", sans-serif;
+            font-size: 16px;
+            letter-spacing: 0.02em;
+            font-weight: 600;
+            margin-top: 12px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.35);
+        }
+
+        #quiz2 .choice:hover,
+        #quiz2 .choice:focus-visible {
+            transform: translateY(-7px) scale(1.02);
+            border-color: rgba(234, 202, 184, 0.42);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.12), 0 26px 42px rgba(0,0,0,0.26), 0 0 28px rgba(211,172,148,0.18);
+            outline: none;
+        }
+
+        #quiz2 .choice.is-selected {
+            border-color: rgba(233, 206, 182, 0.6);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 28px 46px rgba(0,0,0,0.3), 0 0 34px rgba(232,186,160,0.15);
+            transform: translateY(-4px) scale(1.01);
+        }
+
+        #quiz3 .choices {
+            width: min(1180px, 100%);
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
+            align-items: stretch;
+        }
+
+        #quiz3 .choice {
+            position: relative;
+            min-height: 300px;
+            padding: 0;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 28px;
+            background:
+                linear-gradient(180deg, rgba(17,17,20,0.5), rgba(12,13,16,0.88)),
+                rgba(12, 14, 18, 0.72);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 18px 30px rgba(0,0,0,0.18);
+            overflow: hidden;
+            text-align: left;
+            color: var(--text);
+            font-size: 15px;
+            letter-spacing: 0.01em;
+            transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease, filter 0.28s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: flex-end;
+            cursor: pointer;
+        }
+
+        #quiz3 .choice::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            background: linear-gradient(180deg, rgba(8,8,10,0.12), rgba(8,8,10,0.72));
+            pointer-events: none;
+        }
+
+        #quiz3 .service-choice__media {
+            position: relative;
+            z-index: 1;
+            height: 62%;
+            min-height: 165px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 18px 0;
+            background:
+                radial-gradient(circle at 50% 20%, rgba(244, 220, 206, 0.18), transparent 26%),
+                linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+        }
+
+        #quiz3 .service-choice__media--placeholder {
+            background:
+                radial-gradient(circle at 50% 22%, rgba(255,255,255,0.08), transparent 30%),
+                linear-gradient(180deg, rgba(242, 232, 222, 0.04), rgba(12, 13, 16, 0.22));
+        }
+
+        #quiz3 .style-choice__image {
+            position: relative;
+            z-index: 1;
+            width: min(84%, 200px);
+            height: 100%;
+            max-height: 175px;
+            object-fit: contain;
+            object-position: center;
+            display: block;
+            transition: transform 0.35s ease, filter 0.35s ease;
+            filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.28)) drop-shadow(0 0 18px rgba(255, 255, 255, 0.04));
+            pointer-events: none;
+            user-select: none;
+        }
+
+        #quiz3 .service-choice__content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 14px 18px 18px;
+            background: linear-gradient(180deg, rgba(15,15,18,0.08), rgba(11,11,14,0.72));
+        }
+
+        #quiz3 .service-choice__title {
+            display: block;
+            font-size: 17px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color: #f3eee9;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.28);
+            margin-bottom: 6px;
+        }
+
+        #quiz3 .service-choice__subtitle {
+            display: block;
+            font-size: 13px;
+            line-height: 1.5;
+            color: rgba(236, 230, 224, 0.8);
+            letter-spacing: 0.01em;
+        }
+
+        #quiz3 .choice:hover .style-choice__image,
+        #quiz3 .choice:focus-visible .style-choice__image,
+        #quiz3 .choice.is-selected .style-choice__image {
+            transform: translateY(-2px) scale(1.04);
+            filter: drop-shadow(0 22px 32px rgba(0, 0, 0, 0.36)) drop-shadow(0 0 22px rgba(246, 206, 178, 0.10));
+        }
+
+        #quiz3 .choice:hover,
+        #quiz3 .choice:focus-visible {
+            transform: translateY(-6px) scale(1.01);
+            border-color: rgba(234,202,184,0.34);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.12), 0 22px 36px rgba(0,0,0,0.2), 0 0 26px rgba(222,182,154,0.12);
+            filter: saturate(1.05);
+            outline: none;
+        }
+
+        #quiz3 .choice.is-selected {
+            border-color: rgba(235,208,192,0.56);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 24px 40px rgba(0,0,0,0.24), 0 0 30px rgba(222,182,154,0.18);
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 1100px) {
+            #quiz3 .choices {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 560px) {
+            #quiz3 .choices {
+                grid-template-columns: 1fr;
+            }
+
+            #quiz3 .choice {
+                min-height: 260px;
+            }
+
+            #quiz3 .service-choice__media {
+                min-height: 145px;
+            }
+        }
+
+        #quiz4 .choices {
+            width: min(820px, 100%);
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px 22px;
+        }
+
+        #quiz4 .choice {
+            position: relative;
+            min-height: 160px;
+            padding: 18px 18px 16px;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 26px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 18px 26px rgba(0,0,0,0.18);
+            text-align: left;
+            color: #f8f1ed;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            overflow: hidden;
+            background-color: rgba(16,18,22,0.56);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease, filter 0.28s ease;
+        }
+
+        #quiz4 .choice::before,
+        #quiz4 .choice::after {
+            content: "";
+            position: absolute;
+            pointer-events: none;
+        }
+
+        #quiz4 .choice::before {
+            inset: 0;
+            background: linear-gradient(180deg, rgba(8, 10, 12, 0.28), rgba(8, 10, 12, 0.7));
+        }
+
+        #quiz4 .choice::after {
+            left: 18px;
+            right: 18px;
+            bottom: 14px;
+            height: 1.5px;
+            background: linear-gradient(90deg, rgba(255,255,255,0.14), rgba(255,255,255,0.7), rgba(255,255,255,0.14));
+            box-shadow: 0 0 14px rgba(255,255,255,0.16);
+        }
+
+        #quiz4 .choice:nth-child(1) {
+            background-image: linear-gradient(180deg, rgba(10,10,12,0.12), rgba(10,10,12,0.58)), url("assets/images/purpose-work.png");
+        }
+
+        #quiz4 .choice:nth-child(2) {
+            background-image: linear-gradient(180deg, rgba(10,10,12,0.08), rgba(10,10,12,0.62)), url("assets/images/purpose-date.png");
+        }
+
+        #quiz4 .choice:nth-child(3) {
+            background-image: linear-gradient(180deg, rgba(10,10,12,0.10), rgba(10,10,12,0.66)), url("assets/images/purpose-travel.png");
+        }
+
+        #quiz4 .choice:nth-child(4) {
+            background-image: linear-gradient(180deg, rgba(10,10,12,0.12), rgba(10,10,12,0.64)), url("assets/images/purpose-event.png");
+        }
+
+        #quiz4 .choice:nth-child(5) {
+            background-image: linear-gradient(180deg, rgba(10,10,12,0.18), rgba(10,10,12,0.70)), url("assets/images/purpose-new.png");
+        }
+
+        #quiz4 .choice:nth-child(odd) {
+            transform: rotate(-1.1deg);
+        }
+
+        #quiz4 .choice:nth-child(even) {
+            transform: rotate(1.1deg);
+        }
+
+        #quiz4 .choice:hover,
+        #quiz4 .choice:focus-visible {
+            transform: translateY(-6px) rotate(0deg) scale(1.02);
+            border-color: rgba(234,202,184,0.34);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 22px 34px rgba(0,0,0,0.26), 0 0 24px rgba(214,177,155,0.12);
+            filter: saturate(1.04) brightness(1.04);
+            outline: none;
+        }
+
+        #quiz4 .choice.is-selected {
+            border-color: rgba(235,208,192,0.56);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), 0 24px 40px rgba(0,0,0,0.24), 0 0 28px rgba(214,177,155,0.2);
+            transform: translateY(-4px) rotate(0deg);
+        }
+
+        #quiz4 .choice > span {
+            position: relative;
+            z-index: 1;
+            max-width: 170px;
+            font-size: 15.5px;
+            font-weight: 600;
+            line-height: 1.2;
+            letter-spacing: 0.04em;
+            color: #f8f2ee;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.14);
+            transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        #quiz4 .choice:hover > span,
+        #quiz4 .choice:focus-visible > span,
+        #quiz4 .choice.is-selected > span {
+            color: #fffdfb;
+            text-shadow: 0 0 16px rgba(255, 235, 224, 0.22);
+        }
+
+        #quiz4 .choice:nth-child(1) > span,
+        #quiz4 .choice:nth-child(2) > span,
+        #quiz4 .choice:nth-child(4) > span,
+        #quiz4 .choice:nth-child(5) > span {
+            transform: translateY(-8px);
+        }
+
+        #quiz4 .choice:nth-child(3) > span {
+            transform: translateY(-4px);
+        }
+
+        #quiz3 p,
+        #quiz4 p,
+        #result > .result-profile > p:first-child {
+            text-transform: uppercase;
+            letter-spacing: 0.26em;
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        #quiz .other-trigger-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 18px;
+            text-align: center;
+        }
+
+        .other-trigger {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 156px;
+            padding: 12px 22px;
+            border-radius: 999px;
+            border: 1px solid rgba(214, 201, 190, 0.34);
+            background: rgba(12, 14, 18, 0.18);
+            color: var(--text);
+            font-size: 14px;
+            letter-spacing: 0.08em;
+            text-transform: none;
+            cursor: pointer;
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+
+        .other-trigger:hover,
+        .other-trigger:focus-visible {
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(214, 201, 190, 0.54);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+            transform: translateY(-1px);
+            outline: none;
+        }
+
+        .other-trigger__caption {
+            margin-top: 8px;
+            font-size: 11px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        #otherRequestScreen {
+            position: relative;
+            min-height: 100vh;
+            padding: 110px 20px 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        #otherRequestScreen::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 50% 28%, rgba(196, 179, 167, 0.16), transparent 26%),
+                linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0));
+            pointer-events: none;
+        }
+
+        #otherRequestScreen > * { position: relative; z-index: 1; }
+
+        .other-request-profile {
+            width: min(820px, 100%);
+            padding: 36px 32px 28px;
+            border: 1px solid var(--line);
+            background: rgba(10, 12, 17, 0.36);
+            border-radius: 32px;
+            box-shadow: var(--shadow);
+        }
+
+        .other-request-profile > p:first-child {
+            text-transform: uppercase;
+            letter-spacing: 0.26em;
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .other-request-profile h2 {
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(38px, 4vw, 58px);
+            line-height: 0.98;
+            letter-spacing: -0.03em;
+            font-weight: 500;
+            margin: 18px auto 8px;
+        }
+
+        .other-request-profile .other-request-subtitle {
+            max-width: 620px;
+            margin: 0 auto 28px;
+            color: var(--muted-strong);
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        #otherRequestForm {
+            max-width: 620px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .other-form__field {
+            display: grid;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+
+        .other-form__field label {
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .other-form__field textarea,
+        .other-form__field input {
+            width: 100%;
+            border: 1px solid rgba(214, 201, 190, 0.24);
+            background: rgba(9, 11, 15, 0.45);
+            color: var(--text);
+            border-radius: 18px;
+            padding: 14px 16px;
+            font: inherit;
+            resize: vertical;
+            min-height: 52px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+
+        .other-form__field textarea {
+            min-height: 146px;
+        }
+
+        .other-form__field textarea::placeholder,
+        .other-form__field input::placeholder {
+            color: var(--muted);
+        }
+
+        .other-form__field textarea:focus,
+        .other-form__field input:focus {
+            outline: none;
+            border-color: rgba(214, 201, 190, 0.46);
+            box-shadow: 0 0 0 3px rgba(214, 201, 190, 0.08);
+        }
+
+        #submitOtherLead {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-width: 240px;
+            margin-top: 8px;
+            font-size: 15px;
+            letter-spacing: 0.06em;
+            border-radius: 999px;
+            padding: 18px 28px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+            border: 1px solid rgba(214, 201, 190, 0.42);
+            color: var(--text);
+            box-shadow: 0 18px 36px rgba(0,0,0,0.28);
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+
+        #submitOtherLead:hover,
+        #submitOtherLead:focus-visible {
+            transform: translateY(-1px);
+            border-color: rgba(214, 201, 190, 0.54);
+            box-shadow: 0 22px 40px rgba(0,0,0,0.32);
+            outline: none;
+        }
+
+        #otherRequestScreen .quiz-back {
+            display: inline-flex;
+            margin-top: 22px;
+            justify-content: center;
+        }
+
+        #result {
+            position: relative;
+            min-height: 100vh;
+            padding: 110px 20px 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        #result::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 50% 30%, rgba(196, 179, 167, 0.16), transparent 26%),
+                linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0));
+            pointer-events: none;
+        }
+
+        #result > * { position: relative; z-index: 1; }
+
+        #result .result-profile {
+            width: min(900px, 100%);
+            padding: 50px 32px 32px;
+            border: 1px solid var(--line);
+            background: rgba(10, 12, 17, 0.36);
+            border-radius: 32px;
+            box-shadow: var(--shadow);
+        }
+
+        #resultTitle {
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(38px, 4vw, 58px);
+            line-height: 0.98;
+            letter-spacing: -0.03em;
+            font-weight: 500;
+            margin: 18px auto;
+        }
+
+        #resultDescription {
+            max-width: 650px;
+            margin: 0 auto 26px;
+            font-size: 18px;
+            line-height: 1.6;
+            letter-spacing: 0.02em;
+            color: var(--muted-strong);
+        }
+
+        #resultPrice {
+            font-size: clamp(19px, 2vw, 24px);
+            color: var(--text);
+            margin-bottom: 18px;
+        }
+
+        #leadForm {
+            max-width: 520px;
+            margin: 24px auto 0;
+            padding: 22px 20px 20px;
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            background: rgba(16, 18, 24, 0.24);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.06);
+            text-align: left;
+        }
+
+        #leadForm h3 {
+            margin: 0 0 8px;
+            font-size: clamp(26px, 2vw, 34px);
+            font-family: "Cormorant Garamond", Georgia, serif;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            color: var(--text);
+        }
+
+        #leadForm .lead-subtitle {
+            margin: 0 0 18px;
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--muted-strong);
+        }
+
+        .lead-form__fields {
+            display: grid;
+            gap: 14px;
+        }
+
+        .lead-field {
+            display: grid;
+            gap: 8px;
+        }
+
+        .lead-field label {
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .lead-field input {
+            width: 100%;
+            min-height: 52px;
+            border-radius: 14px;
+            border: 1px solid rgba(214, 201, 190, 0.24);
+            background: rgba(9, 11, 15, 0.45);
+            color: var(--text);
+            padding: 14px 16px;
+            font: inherit;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+
+        .lead-field input::placeholder {
+            color: var(--muted);
+        }
+
+        .lead-field input:focus {
+            outline: none;
+            border-color: rgba(214, 201, 190, 0.46);
+            box-shadow: 0 0 0 3px rgba(214, 201, 190, 0.08);
+        }
+
+        .field-error {
+            min-height: 14px;
+            font-size: 12px;
+            line-height: 1.4;
+            color: #f9b7b1;
+        }
+
+        #submitLead {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-width: 240px;
+            margin-top: 12px;
+            font-size: 15px;
+            letter-spacing: 0.06em;
+            border-radius: 999px;
+            padding: 18px 28px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+            border: 1px solid rgba(214, 201, 190, 0.42);
+            color: var(--text);
+            box-shadow: 0 18px 36px rgba(0,0,0,0.28);
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+
+        #submitLead:hover,
+        #submitLead:focus-visible {
+            transform: translateY(-1px);
+            border-color: rgba(214, 201, 190, 0.54);
+            box-shadow: 0 22px 40px rgba(0,0,0,0.32);
+            outline: none;
+        }
+
+        #resultBookingLink,
+        #restartQuiz {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 240px;
+            font-size: 15px;
+            letter-spacing: 0.06em;
+            border-radius: 999px;
+            padding: 18px 28px;
+        }
+
+        #resultBookingLink {
+            background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+            border: 1px solid rgba(214, 201, 190, 0.42);
+            color: var(--text);
+            box-shadow: 0 18px 36px rgba(0,0,0,0.28);
+        }
+
+        #restartQuiz {
+            background: transparent;
+            border: 1px solid var(--line);
+            color: var(--muted-strong);
+            margin-top: 16px;
+        }
+
+        .quiz-back {
+            margin-top: 18px;
+            padding: 10px 18px;
+            border: 0;
+            background: transparent;
+            color: var(--muted);
+            cursor: pointer;
+            font-size: 14px;
+            transition: color 0.2s ease, transform 0.2s ease;
+        }
+
+        .quiz-back:hover,
+        .quiz-back:focus-visible {
+            color: var(--text);
+            transform: translateX(-2px);
+            outline: none;
+        }
+
+        @media (max-width: 900px) {
+            .hero {
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 64px;
+            }
+
+            .hero-visual {
+                width: min(460px, 74vw);
+                height: min(480px, 78vw);
+                flex-basis: auto;
+                order: -1;
+            }
+
+            .hero-content {
+                width: min(620px, 100%);
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .description {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .choices,
+            #quiz2 .choices,
+            #quiz4 .choices {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .hero { padding-left: 16px; padding-right: 16px; }
+            .label { margin-bottom: 24px; font-size: 11px; letter-spacing: 0.2em; }
+            .description { font-size: 17px; margin-bottom: 28px; }
+            .button { width: 100%; max-width: 360px; }
+            .choice { padding: 18px 16px; font-size: 16px; }
+            #resultBookingLink,
+            #restartQuiz { width: 100%; max-width: 360px; }
+        }
+    </style>
+</head>
+
+<body class="manicure-universe" data-vibe="default">
+    <div class="site-shell">
+
+        <main class="hero">
+            <div class="hero-backdrop" aria-hidden="true"></div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="halo"></div>
+                <div class="hero-nail-wrap">
+                    <img class="hero-nail-base"
+                         src="assets/images/hero-nail-luxury.png"
+                         alt="" />
+                    <div class="hero-nail-gloss hero-nail-gloss-one"></div>
+                    <div class="hero-nail-gloss hero-nail-gloss-two"></div>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <div class="label">Татьяна · мастер маникюра</div>
+
+                <h1>
+                    Какой<br>
+                    у тебя<br>
+                    сегодня вайб?
+                </h1>
+
+                <p class="description">
+                    Не знаешь, какой цвет или дизайн выбрать?
+                    Давай подберём твой идеальный маникюр вместе.
+                </p>
+
+                <button id="startQuiz" class="button" type="button">Подобрать мой маникюр →</button>
+            </div>
+        </main>
+
+        <section id="quiz" class="quiz" style="display: none;">
+            <div class="quiz-content">
+                <p class="quiz-step">Шаг 1 из 4</p>
+                <h2>Какой у тебя<br>сегодня вайб?</h2>
+                <p class="quiz-description">Выбери то, что сейчас ближе всего.</p>
+
+                <div class="choices">
+    <button class="choice choice--drop choice--tender" type="button">
+        <svg class="drop-art" viewBox="0 0 420 230" aria-hidden="true">
+            <defs>
+                <linearGradient id="tenderBody" x1="15%" y1="5%" x2="88%" y2="95%">
+                    <stop offset="0%" stop-color="#f5b7b8"/>
+                    <stop offset="30%" stop-color="#e48e98"/>
+                    <stop offset="68%" stop-color="#c96e7f"/>
+                    <stop offset="100%" stop-color="#9f4e63"/>
+                </linearGradient>
+                <radialGradient id="tenderLight" cx="29%" cy="17%" r="55%">
+                    <stop offset="0%" stop-color="#fff7f4" stop-opacity=".78"/>
+                    <stop offset="20%" stop-color="#ffdfe0" stop-opacity=".28"/>
+                    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="dropShadow1" x="-30%" y="-40%" width="160%" height="190%">
+                    <feDropShadow dx="0" dy="13" stdDeviation="11" flood-color="#000" flood-opacity=".42"/>
+                </filter>
+                <filter id="softGloss1" x="-40%" y="-80%" width="200%" height="260%">
+                    <feGaussianBlur stdDeviation="2.2"/>
+                </filter>
+            </defs>
+            <g filter="url(#dropShadow1)">
+                <path d="M57 113 C61 79 99 56 151 47 C204 38 268 42 316 59 C357 74 378 101 369 128 C361 154 329 177 285 184 C237 192 178 190 128 178 C81 166 51 143 57 113 Z"
+                      fill="url(#tenderBody)" stroke="#f6c3c3" stroke-opacity=".48" stroke-width="2.5"/>
+                <path d="M58 111 C66 80 103 59 153 50 C204 42 266 46 310 61 C330 68 346 78 354 89 C311 73 260 68 207 72 C150 76 102 92 67 120 C62 124 59 118 58 111Z"
+                      fill="url(#tenderLight)" opacity=".75"/>
+                <path d="M78 151 C129 177 214 187 287 173 C326 166 350 150 361 132 C350 162 319 181 278 190 C220 202 137 189 91 169 C76 162 70 156 78 151Z"
+                      fill="#6e3045" opacity=".16"/>
+                <ellipse cx="112" cy="79" rx="42" ry="13" transform="rotate(-19 112 79)"
+                         fill="#fffdfb" opacity=".86" filter="url(#softGloss1)"/>
+                <ellipse cx="96" cy="88" rx="19" ry="6" transform="rotate(-25 96 88)"
+                         fill="#fff" opacity=".7"/>
+            </g>
+            <circle cx="39" cy="158" r="17" fill="#dc8791" stroke="#f5b7ba" stroke-width="2" filter="url(#dropShadow1)"/>
+            <circle cx="24" cy="178" r="6.5" fill="#d77c88" stroke="#f1b0b4" stroke-width="1.5"/>
+            <ellipse cx="34" cy="151" rx="8" ry="4" transform="rotate(-25 34 151)" fill="#fff" opacity=".72"/>
+        </svg>
+        <span>Хочу нежности</span>
+    </button>
+
+    <button class="choice choice--drop choice--stylish" type="button">
+        <svg class="drop-art" viewBox="0 0 420 230" aria-hidden="true">
+            <defs>
+                <linearGradient id="stylishBody" x1="8%" y1="4%" x2="90%" y2="96%">
+                    <stop offset="0%" stop-color="#e1c7b9"/>
+                    <stop offset="28%" stop-color="#cba596"/>
+                    <stop offset="68%" stop-color="#ae806f"/>
+                    <stop offset="100%" stop-color="#765445"/>
+                </linearGradient>
+                <radialGradient id="stylishLight" cx="30%" cy="16%" r="58%">
+                    <stop offset="0%" stop-color="#fff9f4" stop-opacity=".78"/>
+                    <stop offset="24%" stop-color="#f5e0d6" stop-opacity=".28"/>
+                    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="dropShadow2" x="-30%" y="-40%" width="160%" height="190%">
+                    <feDropShadow dx="0" dy="13" stdDeviation="11" flood-color="#000" flood-opacity=".42"/>
+                </filter>
+                <filter id="softGloss2" x="-40%" y="-80%" width="200%" height="260%">
+                    <feGaussianBlur stdDeviation="2.2"/>
+                </filter>
+            </defs>
+            <g filter="url(#dropShadow2)">
+                <path d="M52 111 C55 80 91 58 139 49 C186 40 246 42 298 51 C345 59 374 80 373 108 C372 136 344 163 301 177 C258 191 202 191 149 181 C98 171 57 147 52 111 Z"
+                      fill="url(#stylishBody)" stroke="#ead0c2" stroke-opacity=".5" stroke-width="2.5"/>
+                <path d="M55 106 C65 78 96 61 142 52 C191 43 249 46 294 54 C316 58 333 65 346 75 C302 66 254 64 206 69 C149 75 100 91 63 119 C58 123 54 116 55 106Z"
+                      fill="url(#stylishLight)" opacity=".8"/>
+                <path d="M72 151 C120 174 198 187 271 176 C316 169 348 151 365 126 C355 157 327 177 287 188 C224 204 134 189 87 166 C73 159 68 154 72 151Z"
+                      fill="#50382f" opacity=".18"/>
+                <ellipse cx="109" cy="77" rx="43" ry="13" transform="rotate(-20 109 77)"
+                         fill="#fffdfb" opacity=".88" filter="url(#softGloss2)"/>
+                <ellipse cx="95" cy="86" rx="20" ry="6" transform="rotate(-25 95 86)"
+                         fill="#fff" opacity=".72"/>
+            </g>
+            <circle cx="388" cy="143" r="16" fill="#ad806f" stroke="#dfc0b1" stroke-width="2" filter="url(#dropShadow2)"/>
+            <circle cx="402" cy="162" r="6" fill="#a77766" stroke="#d9b7a8" stroke-width="1.5"/>
+            <ellipse cx="383" cy="137" rx="8" ry="4" transform="rotate(-25 383 137)" fill="#fff" opacity=".7"/>
+        </svg>
+        <span>Хочу стильно</span>
+    </button>
+
+    <button class="choice choice--drop choice--bright" type="button">
+        <svg class="drop-art" viewBox="0 0 420 230" aria-hidden="true">
+            <defs>
+                <linearGradient id="brightBody" x1="12%" y1="3%" x2="88%" y2="98%">
+                    <stop offset="0%" stop-color="#df8e9c"/>
+                    <stop offset="30%" stop-color="#c95d76"/>
+                    <stop offset="67%" stop-color="#a83b5b"/>
+                    <stop offset="100%" stop-color="#70243f"/>
+                </linearGradient>
+                <radialGradient id="brightLight" cx="30%" cy="16%" r="58%">
+                    <stop offset="0%" stop-color="#fff5f7" stop-opacity=".82"/>
+                    <stop offset="22%" stop-color="#ffd5df" stop-opacity=".3"/>
+                    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="dropShadow3" x="-30%" y="-40%" width="160%" height="190%">
+                    <feDropShadow dx="0" dy="14" stdDeviation="11" flood-color="#000" flood-opacity=".44"/>
+                </filter>
+                <filter id="softGloss3" x="-40%" y="-80%" width="200%" height="260%">
+                    <feGaussianBlur stdDeviation="2.2"/>
+                </filter>
+            </defs>
+            <g filter="url(#dropShadow3)">
+                <path d="M57 119 C53 88 83 60 126 50 C173 39 232 42 283 55 C333 68 367 93 369 120 C371 147 346 170 306 181 C263 194 206 193 153 184 C103 176 62 151 57 119 Z"
+                      fill="url(#brightBody)" stroke="#e98ba1" stroke-opacity=".54" stroke-width="2.5"/>
+                <path d="M59 114 C65 83 93 62 130 52 C178 41 232 46 279 57 C301 62 320 70 337 81 C296 72 247 70 201 76 C147 82 102 96 69 124 C63 129 59 122 59 114Z"
+                      fill="url(#brightLight)" opacity=".82"/>
+                <path d="M73 154 C118 178 201 190 274 180 C319 173 348 156 363 135 C354 164 326 181 288 191 C224 206 134 193 88 169 C75 162 69 157 73 154Z"
+                      fill="#4b142d" opacity=".2"/>
+                <ellipse cx="109" cy="82" rx="42" ry="13" transform="rotate(-21 109 82)"
+                         fill="#fffdfd" opacity=".9" filter="url(#softGloss3)"/>
+                <ellipse cx="95" cy="91" rx="20" ry="6" transform="rotate(-25 95 91)"
+                         fill="#fff" opacity=".76"/>
+                <circle cx="223" cy="123" r="28" fill="#ffb0bf" opacity=".06"/>
+            </g>
+            <circle cx="42" cy="158" r="14" fill="#a83f5e" stroke="#df8298" stroke-width="2" filter="url(#dropShadow3)"/>
+            <circle cx="25" cy="143" r="6" fill="#a13a58" stroke="#d97b92" stroke-width="1.5"/>
+            <ellipse cx="37" cy="153" rx="7" ry="3.5" transform="rotate(-25 37 153)" fill="#fff" opacity=".72"/>
+        </svg>
+        <span>Хочу яркости</span>
+    </button>
+
+    <button class="choice choice--drop choice--wow" type="button">
+        <svg class="drop-art" viewBox="0 0 420 230" aria-hidden="true">
+            <defs>
+                <linearGradient id="wowBody" x1="10%" y1="3%" x2="90%" y2="98%">
+                    <stop offset="0%" stop-color="#8d2947"/>
+                    <stop offset="28%" stop-color="#701a36"/>
+                    <stop offset="65%" stop-color="#4b1025"/>
+                    <stop offset="100%" stop-color="#260713"/>
+                </linearGradient>
+                <radialGradient id="wowLight" cx="29%" cy="16%" r="58%">
+                    <stop offset="0%" stop-color="#fff3f5" stop-opacity=".76"/>
+                    <stop offset="20%" stop-color="#ffd8e0" stop-opacity=".25"/>
+                    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="dropShadow4" x="-30%" y="-40%" width="160%" height="190%">
+                    <feDropShadow dx="0" dy="14" stdDeviation="11" flood-color="#000" flood-opacity=".5"/>
+                </filter>
+                <filter id="softGloss4" x="-40%" y="-80%" width="200%" height="260%">
+                    <feGaussianBlur stdDeviation="2.2"/>
+                </filter>
+            </defs>
+            <g filter="url(#dropShadow4)">
+                <path d="M54 114 C57 82 89 59 137 50 C184 41 242 43 292 55 C340 67 371 91 369 119 C367 147 338 170 296 182 C250 195 195 193 144 183 C94 173 50 147 54 114 Z"
+                      fill="url(#wowBody)" stroke="#9f3c5a" stroke-opacity=".62" stroke-width="2.5"/>
+                <path d="M57 109 C65 80 95 62 140 52 C186 43 242 47 288 57 C311 62 329 70 344 81 C300 71 252 70 204 76 C149 83 100 96 67 124 C61 128 56 118 57 109Z"
+                      fill="url(#wowLight)" opacity=".82"/>
+                <path d="M69 153 C119 179 197 190 270 180 C315 174 346 156 361 133 C352 163 322 182 284 192 C220 207 132 192 84 168 C71 161 67 156 69 153Z"
+                      fill="#19040c" opacity=".28"/>
+                <ellipse cx="108" cy="81" rx="42" ry="13" transform="rotate(-22 108 81)"
+                         fill="#fffdfd" opacity=".9" filter="url(#softGloss4)"/>
+                <ellipse cx="94" cy="90" rx="20" ry="6" transform="rotate(-25 94 90)"
+                         fill="#fff" opacity=".76"/>
+            </g>
+            <circle cx="390" cy="151" r="15" fill="#57142a" stroke="#8f3652" stroke-width="2" filter="url(#dropShadow4)"/>
+            <circle cx="404" cy="131" r="6" fill="#4a1023" stroke="#87334d" stroke-width="1.5"/>
+            <ellipse cx="384" cy="145" rx="7" ry="3.5" transform="rotate(-25 384 145)" fill="#fff" opacity=".7"/>
+        </svg>
+        <span>Хочу вау</span>
+    </button>
+</div>
+
+<div class="other-trigger-wrap">
+    <button id="otherRequestTrigger" class="other-trigger" type="button">Другое</button>
+    <div class="other-trigger__caption">Если тебе нужен другой запрос</div>
+</div>
+            </div>
+        </section>
+
+        <section id="quiz2" class="quiz" style="display: none;">
+            <div class="quiz-content">
+                <p class="quiz-step">Шаг 2 из 4</p>
+                <h2>Какую длину<br>ты любишь?</h2>
+                <p class="quiz-description">Выбери вариант, в котором тебе комфортнее всего.</p>
+
+                <div class="choices">
+                    <button class="choice length-choice"><span>Короткие</span></button>
+                    <button class="choice length-choice"><span>Средние</span></button>
+                    <button class="choice length-choice"><span>Длинные</span></button>
+                </div>
+
+                <button class="quiz-back" type="button" data-back="quiz">← Назад</button>
+            </div>
+        </section>
+
+        <section id="quiz3" class="quiz" style="display: none;">
+            <div class="quiz-content">
+                <p class="quiz-step">Шаг 3 из 3</p>
+                <h2>Что хочется сделать?</h2>
+
+                <p id="quiz3Description" class="quiz-description">Выбери один вариант — и мы покажем самый подходящий результат.</p>
+
+                <div id="styleChoices" class="choices" aria-live="polite"></div>
+
+                <button class="quiz-back" type="button" data-back="quiz2">← Назад</button>
+            </div>
+        </section>
+
+        <section id="otherRequestScreen" class="quiz" style="display: none;">
+            <div class="other-request-profile">
+                <p>Не нашла свой вариант?</p>
+
+                <h2>Посмотреть все услуги</h2>
+
+                <p class="other-request-subtitle">
+                    Можно посмотреть все услуги Татьяны и выбрать подходящую при записи.
+                </p>
+
+                <a id="otherServicesLink"
+                   href="https://dikidi.net/991514?p=2.pi-po-ssm&o=7"
+                   class="button"
+                   target="_blank"
+                   rel="noopener">
+                    Посмотреть все услуги →
+                </a>
+
+                <button class="quiz-back" type="button" data-back="quiz">← Назад</button>
+            </div>
+        </section>
+
+        <section id="result" class="quiz" style="display: none;">
+            <div class="result-profile">
+                <p>ТВОЙ РЕЗУЛЬТАТ</p>
+
+                <h2 id="resultTitle">Твой идеальный маникюр 💅</h2>
+
+                <p id="resultDescription">
+                    Мы подобрали вариант специально под твои ответы.
+                </p>
+
+                <p id="resultPrice">2 000 ₽ · 2 часа</p>
+
+                <a id="resultBookingLink"
+                   href="https://dikidi.net/991514?p=2.pi-po-ssm&o=7"
+                   target="_blank"
+                   rel="noopener">
+                    Записаться к Татьяне →
+                </a>
+
+                <br>
+
+                <button id="restartQuiz" class="choice">
+                    ← Пройти тест заново
+                </button>
+            </div>
+        </section>
+
+        <section class="seo-location" aria-label="Локация и SEO информация о мастере маникюра">
+            <div class="seo-location__inner">
+                <span class="seo-location__label">Мастер маникюра в Голубом</span>
+                <h2>Мастер маникюра в Голубом</h2>
+                <p>
+                    Татьяна принимает в пгт Голубое, в ЖК «Первый Зеленоградский».<br>
+                    Маникюр с покрытием, френч, дизайн, наращивание и маникюр без покрытия.
+                </p>
+                <p>
+                    Адрес:<br>
+                    Московская область, г.о. Солнечногорск,<br>
+                    пгт Голубое, ЖК «Первый Зеленоградский»,<br>
+                    Тверецкий проезд, 19, цокольный этаж.
+                </p>
+                <a class="seo-location__button" href="https://dikidi.net/991514?p=2.pi-po-ssm&o=7" target="_blank" rel="noopener">
+                    Записаться онлайн
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        window.addEventListener("load", function () {
+            window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+        });
+
+        const quiz = document.querySelector("#quiz");
+        const quiz2 = document.querySelector("#quiz2");
+        const quiz3 = document.querySelector("#quiz3");
+        const otherRequestScreen = document.querySelector("#otherRequestScreen");
+        const result = document.querySelector("#result");
+
+        const choices = document.querySelectorAll("#quiz .choice");
+        const lengthChoices = document.querySelectorAll("#quiz2 .length-choice");
+        const styleChoicesContainer = document.querySelector("#styleChoices");
+        const otherRequestTrigger = document.querySelector("#otherRequestTrigger");
+
+        const answers = {
+            requestType: "",
+            vibe: "",
+            length: "",
+            service: "",
+            otherRequest: "",
+            clientName: "",
+            clientContact: ""
+        };
+
+        const DIKIDI_GENERAL_URL = "https://dikidi.net/991514?p=2.pi-po-ssm&o=7";
+
+        const SERVICE_CONFIG = {
+            gel: {
+                key: "gel",
+                displayName: "Маникюр с покрытием",
+                dikidiName: "Маникюр с покрытием (снятие, маникюр, укрепление, покрытие, ремонт 1-2 ногтей)",
+                bookingUrl: "https://dikidi.net/991514?p=4.pi-po-sm-ssm-si&o=1&m=2242170&s=9700102",
+                subtitle: "Чистая форма и стойкое покрытие"
+            },
+            french: {
+                key: "french",
+                displayName: "Френч",
+                dikidiName: "ФРЕНЧ Маникюр с покрытием",
+                bookingUrl: "https://dikidi.net/991514?p=4.pi-po-sm-ssm-si&o=1&m=2242170&s=19975329",
+                subtitle: "Классика, которой всегда подходит"
+            },
+            design: {
+                key: "design",
+                displayName: "Дизайн",
+                dikidiName: "Маникюр с покрытие + РИСУНОК (3 и более ногтей)",
+                bookingUrl: "https://dikidi.net/991514?p=4.pi-po-sm-ssm-si&o=1&m=2242170&s=23409264",
+                subtitle: "Если хочется деталей и выразительности"
+            },
+            extension: {
+                key: "extension",
+                displayName: "Наращивание",
+                dikidiName: "Наращивание ногтей",
+                bookingUrl: "https://dikidi.net/991514?p=4.pi-po-sm-ssm-si&o=1&m=2242170&s=12642694",
+                subtitle: "Если хочется другой длины и формы"
+            },
+            correction: {
+                key: "correction",
+                displayName: "Коррекция",
+                dikidiName: "Коррекция",
+                bookingUrl: DIKIDI_GENERAL_URL,
+                subtitle: "Если нужен уход за уже наращёнными ногтями"
+            },
+            manicure: {
+                key: "manicure",
+                displayName: "Без покрытия",
+                dikidiName: "Маникюр комбинированный",
+                bookingUrl: "https://dikidi.net/991514?p=4.pi-po-sm-ssm-si&o=1&m=2242170&s=12535368",
+                subtitle: "Аккуратный маникюр без гель-лака"
+            },
+            unsure: {
+                key: "unsure",
+                displayName: "Не знаю — помоги выбрать",
+                dikidiName: "Профиль мастера",
+                bookingUrl: DIKIDI_GENERAL_URL,
+                subtitle: "Татьяна подберёт вариант по вашему образу"
+            }
+        };
+
+        const SERVICE_ORDER = ["gel", "french", "design", "extension", "correction", "manicure", "unsure"];
+        const SERVICE_OPTIONS = SERVICE_ORDER.map(function (key) {
+            const service = SERVICE_CONFIG[key];
+            return {
+                key: service.key,
+                label: service.displayName,
+                subtitle: service.subtitle
+            };
+        });
+
+        const SERVICE_IMAGE_MAP = {
+            tender: {
+                gel: "assets/images/style-nude.png",
+                french: "assets/images/style-french.png",
+                design: "assets/images/style-delicate.png",
+                extension: "assets/images/style-extension.png",
+                correction: "assets/images/style-correction.png",
+                manicure: "assets/images/style-minimal.png",
+                unsure: "assets/images/style-master.png"
+            },
+            stylish: {
+                gel: "assets/images/style-taupe.png",
+                french: "assets/images/style-french.png",
+                design: "assets/images/style-stylish-design.png",
+                extension: "assets/images/style-extension.png",
+                correction: "assets/images/style-correction.png",
+                manicure: "assets/images/style-minimal.png",
+                unsure: "assets/images/style-master.png"
+            },
+            bright: {
+                gel: "assets/images/style-fuchsia.png",
+                french: "assets/images/style-french.png",
+                design: "assets/images/style-bright-design.png",
+                extension: "assets/images/style-extension.png",
+                correction: "assets/images/style-correction.png",
+                manicure: "assets/images/style-minimal.png",
+                unsure: "assets/images/style-master.png"
+            },
+            wow: {
+                gel: "assets/images/style-cat-eye.png",
+                french: "assets/images/style-french.png",
+                design: "assets/images/style-wow-design.png",
+                extension: "assets/images/style-extension.png",
+                correction: "assets/images/style-correction.png",
+                manicure: "assets/images/style-minimal.png",
+                unsure: "assets/images/style-master.png"
+            }
+        };
+
+        const vibeMoodMap = {
+            tender: "tender",
+            stylish: "stylish",
+            bright: "bright",
+            wow: "wow"
+        };
+
+        const vibeCopy = {
+            tender: {
+                title: "нежный маникюр",
+                mood: "мягкий и аккуратный образ"
+            },
+            stylish: {
+                title: "сдержанный маникюр",
+                mood: "чистый и собранный образ"
+            },
+            bright: {
+                title: "яркий маникюр",
+                mood: "выразительный и свежий образ"
+            },
+            wow: {
+                title: "сильный маникюр",
+                mood: "с заметным и индивидуальным характером"
+            }
+        };
+
+        function setVibeMood(key) {
+            document.body.dataset.vibe = vibeMoodMap[key] || "default";
+        }
+
+        function clearSelectedChoices() {
+            document.querySelectorAll(".choice").forEach(function (choice) {
+                choice.classList.remove("is-selected");
+            });
+        }
+
+        function showSection(section) {
+            [quiz, quiz2, quiz3, otherRequestScreen, result].forEach(function (item) {
+                if (item) {
+                    item.style.display = item === section ? "flex" : "none";
+                }
+            });
+
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+
+        function getLengthLabel() {
+            if (answers.length === "short") return "Короткая длина";
+            if (answers.length === "medium") return "Средняя длина";
+            if (answers.length === "long") return "Длинная длина";
+            return "Длина по вашему запросу";
+        }
+
+        function renderServiceChoices() {
+            if (!styleChoicesContainer) return;
+
+            const availableServices = SERVICE_OPTIONS.filter(function (option) {
+                if (option.key === "extension" && answers.length !== "long") {
+                    return false;
+                }
+                return true;
+            });
+
+            const vibeImages = SERVICE_IMAGE_MAP[answers.vibe] || SERVICE_IMAGE_MAP.tender;
+            styleChoicesContainer.innerHTML = "";
+
+            availableServices.forEach(function (option) {
+                const button = document.createElement("button");
+                button.type = "button";
+                button.className = "choice service-choice";
+                button.dataset.serviceKey = option.key;
+
+                const imageSource = vibeImages[option.key] || null;
+                const mediaWrap = document.createElement("div");
+                mediaWrap.className = imageSource ? "service-choice__media" : "service-choice__media service-choice__media--placeholder";
+
+                if (imageSource) {
+                    const image = document.createElement("img");
+                    image.className = "style-choice__image";
+                    image.src = imageSource;
+                    image.alt = "";
+                    image.loading = "lazy";
+                    image.decoding = "async";
+                    image.onerror = function () {
+                        this.style.display = "none";
+                        this.onerror = null;
+                    };
+                    mediaWrap.appendChild(image);
+                }
+
+                const content = document.createElement("div");
+                content.className = "service-choice__content";
+                content.innerHTML =
+                    '<span class="service-choice__title">' + option.label + '</span>' +
+                    '<span class="service-choice__subtitle">' + option.subtitle + '</span>';
+
+                button.appendChild(mediaWrap);
+                button.appendChild(content);
+                styleChoicesContainer.appendChild(button);
+            });
+
+            styleChoicesContainer.querySelectorAll(".service-choice").forEach(function (choice) {
+                choice.addEventListener("click", function () {
+                    clearSelectedChoices();
+                    choice.classList.add("is-selected");
+                    answers.service = choice.dataset.serviceKey;
+                    showRecommendation();
+                });
+            });
+        }
+
+        function getRecommendation() {
+            const currentVibe = vibeCopy[answers.vibe] || {
+                title: "индивидуальный маникюр",
+                mood: "комфортный и аккуратный образ"
+            };
+
+            const serviceKey = SERVICE_CONFIG[answers.service] ? answers.service : "gel";
+            const selectedService = SERVICE_CONFIG[serviceKey] || SERVICE_CONFIG.gel;
+
+            return {
+                title: "Твой вариант — " + currentVibe.title,
+                subtitle: getLengthLabel() + " · " + currentVibe.mood,
+                description:
+                    "Подойдёт под твой вайб и формат ухода. " +
+                    "Сервис: " + selectedService.displayName + ". " +
+                    "Остальные детали можно уточнить при записи.",
+                selectedService: selectedService.displayName,
+                bookingUrl: selectedService.bookingUrl
+            };
+        }
+
+        function showRecommendation() {
+            const recommendation = getRecommendation();
+            const resultTitleEl = document.querySelector("#resultTitle");
+            const resultDescriptionEl = document.querySelector("#resultDescription");
+            const resultPriceEl = document.querySelector("#resultPrice");
+            const resultBookingLinkEl = document.querySelector("#resultBookingLink");
+            const resultTextEl = document.querySelector("#resultText");
+
+            if (resultTitleEl) resultTitleEl.textContent = recommendation.title;
+            if (resultDescriptionEl) resultDescriptionEl.textContent = recommendation.description;
+            if (resultPriceEl) resultPriceEl.textContent = recommendation.subtitle;
+            if (resultBookingLinkEl) {
+                resultBookingLinkEl.href = recommendation.bookingUrl || DIKIDI_GENERAL_URL;
+            }
+            if (resultTextEl) resultTextEl.textContent = recommendation.selectedService;
+
+            showSection(result);
+        }
+
+        function resetQuizState() {
+            answers.requestType = "";
+            answers.vibe = "";
+            answers.length = "";
+            answers.service = "";
+            answers.otherRequest = "";
+            answers.clientName = "";
+            answers.clientContact = "";
+            clearSelectedChoices();
+            setVibeMood("default");
+            if (styleChoicesContainer) {
+                styleChoicesContainer.innerHTML = "";
+            }
+        }
+
+        const startQuiz = document.querySelector("#startQuiz");
+
+        if (startQuiz) {
+            startQuiz.addEventListener("click", function () {
+                resetQuizState();
+                answers.requestType = "quiz";
+                showSection(quiz);
+            });
+        }
+
+        choices.forEach(function (choice) {
+            choice.addEventListener("click", function () {
+                const vibeKey = choice.classList.contains("choice--tender")
+                    ? "tender"
+                    : choice.classList.contains("choice--stylish")
+                        ? "stylish"
+                        : choice.classList.contains("choice--bright")
+                            ? "bright"
+                            : "wow";
+
+                answers.requestType = "quiz";
+                answers.vibe = vibeKey;
+                answers.length = "";
+                answers.service = "";
+                setVibeMood(vibeKey);
+                clearSelectedChoices();
+                choice.classList.add("is-selected");
+                showSection(quiz2);
+            });
+        });
+
+        lengthChoices.forEach(function (choice) {
+            choice.addEventListener("click", function () {
+                const label = choice.textContent.trim();
+
+                answers.length =
+                    label === "Короткие" ? "short" :
+                    label === "Средние" ? "medium" :
+                    "long";
+
+                answers.service = "";
+                clearSelectedChoices();
+                choice.classList.add("is-selected");
+                renderServiceChoices();
+                showSection(quiz3);
+            });
+        });
+
+        if (otherRequestTrigger) {
+            otherRequestTrigger.addEventListener("click", function () {
+                resetQuizState();
+                answers.requestType = "other";
+                showSection(otherRequestScreen);
+            });
+        }
+
+        document.querySelectorAll(".quiz-back").forEach(function (button) {
+            button.addEventListener("click", function () {
+                const target = document.getElementById(button.dataset.back);
+
+                if (button.closest("#otherRequestScreen")) {
+                    resetQuizState();
+                    showSection(quiz);
+                    return;
+                }
+
+                if (target) {
+                    showSection(target);
+                }
+            });
+        });
+
+        document.querySelector("#restartQuiz").addEventListener("click", function () {
+            resetQuizState();
+            showSection(quiz);
+        });
+
+        const resultBookingLink = document.querySelector("#resultBookingLink");
+        if (resultBookingLink) {
+            const fallbackBookingUrl = SERVICE_CONFIG[answers.service] ? SERVICE_CONFIG[answers.service].bookingUrl : SERVICE_CONFIG.gel.bookingUrl;
+            resultBookingLink.href = fallbackBookingUrl;
+            resultBookingLink.setAttribute("target", "_blank");
+            resultBookingLink.setAttribute("rel", "noopener");
+        }
+
+        const resultText = document.querySelector("#resultText");
+        if (resultText) {
+            resultText.textContent = "Подходящая услуга";
+        }
+
+        renderServiceChoices();
+    </script>
+</body>
+</html>
